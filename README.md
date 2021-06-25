@@ -1,16 +1,16 @@
 # Overview  
-This repo provides results presented in (this paper)[https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11736/1173606/Deep-learning-based-real-time-detection-of-northern-corn-leaf/10.1117/12.2587892.short?SSO=1] on 
+This repo provides results presented in [this paper](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11736/1173606/Deep-learning-based-real-time-detection-of-northern-corn-leaf/10.1117/12.2587892.short?SSO=1) on 
 detecting Northern Corn Leaf Blight in images.
 
 # Dependencies  
 1. Darknet  
     We train a neural network using the YoloV4 framework, which relies on darknet.
-    Instruction to install darknet's dependencies can be found (here)
-    [https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos]  
+    Instruction to install darknet's dependencies can be found [here]
+    (https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos)  
 
 2. Northern Corn Leaf Blight Dataset  
     We used a dataset documenting Northern Corn Leaf Blight that was procured 
-    by Mohatney et al, which can be found (here)[https://osf.io/p67rz/] in order 
+    by Mohatney et al, which can be found [here](https://osf.io/p67rz/) in order 
     to train our neural network. 
     
     *Note: We specifically trained on a subset of the handheld data that *
@@ -20,7 +20,7 @@ detecting Northern Corn Leaf Blight in images.
 # Training the custom model  
 
 Instruction for training a YoloV4 model from scratch can be view on 
-(colab)[https://colab.research.google.com/drive/1_GdoqCJWXsChrOiY8sZMr_zbr_fH-0Fg] 
+[colab](https://colab.research.google.com/drive/1_GdoqCJWXsChrOiY8sZMr_zbr_fH-0Fg) 
 (aqcuired from YoloV4 documentation wiki).  
 
 **All necessary yolov4 dependencies are provided in the yolov4 directory of this repo.**  
