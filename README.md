@@ -5,8 +5,8 @@ detecting Northern Corn Leaf Blight in images.
 # Dependencies  
 1. Darknet  
     We train a neural network using the YoloV4 framework, which relies on darknet.
-    Instruction to install darknet's dependencies can be found [here]
-    (https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos)  
+    Instruction to install darknet's dependencies can be found 
+    [here](https://github.com/AlexeyAB/darknet#requirements-for-windows-linux-and-macos)  
 
 2. Northern Corn Leaf Blight Dataset  
     We used a dataset documenting Northern Corn Leaf Blight that was procured 
