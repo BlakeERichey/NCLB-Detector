@@ -13,8 +13,8 @@ detecting Northern Corn Leaf Blight in images.
     by Mohatney et al, which can be found [here](https://osf.io/p67rz/) in order 
     to train our neural network. 
     
-    *Note: We specifically trained on a subset of the handheld data that *
-    *contained only 1 instance of Northern Corn Leaf Blight in the image, *
+    *Note: We specifically trained on a subset of the handheld data that* 
+    *contained only 1 instance of Northern Corn Leaf Blight in the image,* 
     *to lessen the requirements of image augmentation.*  
 
 # Training the custom model  
